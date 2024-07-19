@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel = "stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9ae446c368.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class ="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li> 
+                       <li><a href="#about">About</a></li> 
+                       <li><a href="#tech">Journey</a></li> 
+                       <li><a href="#organisation">Organisations</a></li> 
+                       <li><a href="#contact">Contact</a></li> 
+                       <i class="fas fa-times" onclick="closemenu()"></i>
+                        
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                    
+            </nav>
+            <div class="header-text">
+                <p>CSE UNDERGRADUATE</p>
+                <h1>Hi , I'm <span>Aishwarya</span><br>From Rajapalayam</h1>
+            </div>
+        </div>
+    </div>
+    <!--------ABOUT--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="i2.jpg"></div>
+                
+                <div class="about-col-2">
+                    <h1  class="subtitle">About Me</h1>
+                    <p>An Innovative , Sociable CSE Student with keen interest in exploring technologies in the field of Computer Science.
+                         Seeking for a challenging internship to apply and eager in building solutions to real world problems and assisting 
+                         Company in achieving its goals and missions</p>
+                        <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('wap')">Workshops and Certifications</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('acheivements')">Acheivements</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web App Development - BEGINNER </li>
+                        <li><span>DSA </span><br>Problem Solving in C++</li>
+                        <li><span>DBMS </span><br>Working with ORACLE SQL server</li>
+                        <li><span>LINUX </span><br>Working with Linux Commands during my College Lab sessions</li>                      
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="wap">
+                    <ul>
+                        <li><span id ="A">Certified in C    <a href="C.pdf"><i class="fa-solid fa-arrow-up-right-from-square" ></i></a></span><br>    Certified in C under SUITS  
+                            (Bharathidasan University)    Feb 2018      
+                         </li>
+                         <li><span>Certified in C++    <a href="C++.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></span><br>     Certified in C++ under SUITS  
+                            (Bharathidasan University)    Feb 2019      
+                         </li>
+                          <li><span>IOT Project <a href="IOT.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></span><br> Developed an innovative and accessible IoT based virtual reality (VR) navigation assistant designed to aid visually impaired individuals in navigating their surroundings safely and independently
+                            Implemented using Wokwi Simulator and Blynk IOT platform under Naan Mudhalvan Scheme </li>
+                        <li><span>Cyber Security Workshop      <a href="CY.jpg"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></span><br>  Acquired knowledge in cybersecurity field conducted by INDIAN CYBER SECURITY SOLUTIONS during the Kurukshetra 2024 </li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul><li><span>2022-Present</span><br>Pursuing My Third Year in  Computer Science and Engineering at College of Engineering,Guindy
+                        with a CGPA of 9.4 (till 3rd Sem)</li>
+                       
+                        <li><span>2020-2022</span><br>HSC at Chinmaya Vidyalaya - Rajapalayam with a score of 98.83% (593/600)    </li>
+                        <li><span>2018-2020</span><br>SSLC at Chinmaya Vidyalaya - Rajapalayam with a score of 95.2% (476/500)      
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="acheivements">
+                    <ul><li><span><i class="fa-solid fa-book"></i>         Academic performer</span><br>Secured School first and district second in 12th<br>Star Performer in Mindspark (2015)</li>
+                       
+                        <li><span><i class="fa-solid fa-heart-pulse"></i>
+
+                                   Yoga</span><br>Third in District Yoga Competition at KVS School
+                            Virudhunagar(2016)</li>
+                        <li><span><i class="fa-solid fa-volleyball"></i>   Sports</span><br>Zonals Runner in Throwball (2018)</li>
+                        <li><span><i class="fa-solid fa-person-praying"></i>   Others</span><br>Entered the final level Geeta chanting competition conducted by Chinmaya Mission at Madurai (2013,2014,2016)</li>
+
+                    </ul>
+                </div>
+                
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!--------------------------Technophile ---------------------->
+    <div id="tech">
+        <div class="container">
+            <h1 class="sub-title">
+               My Technophile Journey
+            </h1>
+            <div class="tech-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2 >DBMS Project </h2>
+                <p>INVENTORY MANAGEMENT SYSTEM<br><br><ul>
+                    <li>Empowers enterpreneurs to focus on growth while enhancing customer satisfaction and addresses the inefficiency of traditional inventory systems for small bussiness
+                        <br><br> </li>
+                    <li>Implemented using MYSQL database , HTML,CSS in the frontend and PHP in the backend.</li>
+                    
+                  </ul> </p>
+                    <a href="Inventory_Management_System_Abstract_Final.pdf"  download="Inventory_Management_System_Abstract_Final.pdf"class="bt btn3" >Learn more</a>
+        </div>
+        <div>
+                    <i class="fa-solid fa-laptop"></i><h2>DSA - Problem Solver</h2>
+                    <p><li>Actively Solving Problems and eagerly learing Data Structures and Algorithms. <br><br> </li>
+                        <li>Solving in Platforms like LeetCode and geeksforgeeks.<br><br> </li>
+                        <li>Enthusiastic and eagerly working 
+                            to bring an optimal solution for a given problem.<br><br> </li>
+                    
+                    </p>
+                <a href="https://github.com/AISHU150505/DSA_Learning" class="bt btn3" >Learn more</a>
+                
+                    </div>
+            </div>   
+
+
+        </div>
+
+    </div>
+    <!----------Organisations---------->
+    <div id="organisation">
+        <div class="container">
+            <h1 class="sub-title">Organisations</h1>
+            <div class="org-list">
+                <div class="org">
+                    <img src="saas.png">
+                    <div class="layer"> 
+                        <h3>Students Association And Arts Society</h3>
+                        <p>
+                            Coordinator (2023 - Present)<br>
+                            Actively Worked as a volunteer in Induction Program for our Juniors 
+                            and other events conducted by SAAS (Freshers , Techofes )
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="org">
+                    <img src="stf.jpg">
+                    <div class="layer"> 
+                    <h3>CEG Tech Forum </h3>
+                        <p>
+                            HR Coordinator (2023 - Present)<br>
+                            Assisted in conducting various events during Kurukshetra’24 and 
+                            managed to provide assistance on day works
+                        </p>
+                    <a href="S. AISHWARYA.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div></div> 
+                <div class="org">
+                    <img src="nss.jpg">
+                    <div class="layer"> 
+                    <h3> NSS </h3>
+                        <p>Coordinator (2023 - Present)<br>
+                            Attended social camp and actively participated in volunteering to social 
+                            activities like blood donation, campus cleaning and tree planting   
+                            </p>
+                   </div> 
+                </div> 
+            </div>
+            
+        </div>
+    </div>
+    <!---------------------Contact----------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me </h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>aishwaryasenthurpandian@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9790526661</p>
+                    <div class="social-icons">
+                        <a href="http://linkedin.com/in/aishwarya-senthurpandian-872b3025a"><i class="fa-brands fa-linkedin"></i></a>
+                     <a href="https://github.com/AISHU150505"><i class="fa-brands fa-github"></i></a>
+                     <a href="https://leetcode.com/u/Aishu1505/"><i class="fa-solid fa-laptop"></i></a>
+
+                    </div>
+                    <a href="RESUME_3.pdf" download="RESUME_3.pdf" class="btn btn2">MY RESUME</a>
+                </div>
+                <div class="contact-right">
+                    <form  name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">SUBMIT</button>
+                    </form>
+                    <span id="msg"></span>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Aishu. Made with <i class="fas fa-heart"></i>  by AISHU (3rd year CS UnderGraduate)</p>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzjDA0JP4kgGuVQ_LuPzA1Y-z5xgF-ZNYKd5DmYeRH2AxcdE-nx1RNz_jQu6lSquBGg6A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
